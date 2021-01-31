@@ -402,9 +402,12 @@ ul {
   .icon__block {
     display: none;
   }
-
+  
+  .form__input {
+    width: 75%;
+  }
   .form {
-    width: 60%;
+    width: 80%;
   }
 }
 @media screen and (max-width: 425px) {
