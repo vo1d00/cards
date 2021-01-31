@@ -266,6 +266,19 @@ ul {
   color: #50b9ff;
 }
 
+.form {
+  width: 35%;
+}
+
+.form__input {
+  outline: none;
+  border-bottom: 2px #464646 solid;
+  transition: 0.2s;
+}
+.form__input:focus {
+  border-bottom: 2px #4ea9ff solid;
+}
+
 @media screen and (max-width: 768px) {
   .content__cards {
     display: grid;
@@ -320,7 +333,7 @@ ul {
     left: 0;
     top: -100%;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
     padding-top: 4rem;
     background-color: #fff;
   }
@@ -339,6 +352,10 @@ ul {
   }
   .header__list li {
     margin-bottom: 1rem;
+  }
+
+  .header__link {
+    font-size: 1.5rem;
   }
 
   .header__burger.active span {
@@ -385,6 +402,10 @@ ul {
   .icon__block {
     display: none;
   }
+
+  .form {
+    width: 45%;
+  }
 }
 @media screen and (max-width: 425px) {
   .mini__card_two {
@@ -413,14 +434,14 @@ ul {
     font-size: 2rem;
     text-align: center;
     color: #4e72ff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .mini__card_title-two {
     font-size: 2rem;
     text-align: center;
     color: #ae6bff;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   .mini__card_subtitle {
@@ -450,6 +471,10 @@ ul {
     top: 0;
     right: 0;
     background-color: #4ea9ff;
+  }
+
+  .form {
+    width: 90%;
   }
   .mini__card_two > .icon {
     -ms-grid-row: 3;
